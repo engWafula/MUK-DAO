@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
+// import ai from '../../assets/ai.png';
+import block from '../../assets/block.jpg';
 import './header.css';
 
 const Header = () => (
@@ -21,7 +23,7 @@ const Header = () => (
     </div>
 
     <div className="gpt3__header-image">
-      <img src={ai} />
+      <img src={block} />
     </div>
   </div>
 );
